@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">covid19</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hi_welcome">Hai, Apa Kabar ?</string>
+    <string name="stay_health">#dirumahaja bantu petugas kesehatan melawan penyebaran covid19</string>
+    <string name="update">Update Terakhir</string>
+    <string name="world_wide">World Wide</string>
+    <string name="total_case">Total Case </string>
+    <string name="source">Source : Github.com/novelcovid/api</string>
+
+    <string name="confirmed">Confirmed: %.0f</string>
+    <string name="recovered">Recovered: %.0f</string>
+    <string name="death">Death: %.0f</string>
+    <string name="more_information"><![CDATA[Klik untuk selengkapnya >>>]]></string>
+    <string name="education">Edukasi</string>
+    <string name="education_intro">Pengantar Edukasi</string>
+    <string name="what_you_can_do">Apa yang bisa anda lakukan ?</string>
+    <string name="desc_text">Hai #SahabatTangguh, menuju masyarakat produktif namun tetap aman dari COVID-19 ada beberapa hal yang harus kita siapkan. Selain terus menerapkan disiplin diri menaati protokol kesehatan dengan jaga jarak dan rajin cuci tangan, penting bagi kita menyiapkan beberapa hal yang jadi senjata ampuh pelindung diri, khususnya bagi para pejuang nafkah keluarga. \n\nSumber: Covid19.go.id</string>
+    <string name="see"><![CDATA[Selengkapnya >>]]></string>
+    <string name="confirmed_case">Confirmed</string>
+    <string name="on_treatment">Dalam Perawatan</string>
+    <string name="recovered_case">Recovered</string>
+    <string name="deaths_case">Deaths</string>
+    <string name="indo_img">indo_img</string>
+    <string name="world_image">world image</string>
+
+    <string name="confirmed_all">%.0f</string>
+    <string name="active_all">%.0f</string>
+    <string name="recovered_all">%.0f</string>
+    <string name="deaths_all">%.0f</string>
+    <string name="test_all">%.0f</string>
+    <string name="country_all">%.0f</string>
+
+    <string name="confirmed_today">(+%.0f)</string>
+    <string name="recovered_today">(+%.0f)</string>
+    <string name="deaths_today">(+%.0f)</string>
+
+    <string name="total">Total: %.0f</string>
+    <string name="active">Dirawat: %.0f</string>
+    <string name="covered">Sembuh: %.0f</string>
+    <string name="die">Meninggal: %.0f</string>
+    <string name="tests">Total test diseluruh dunia: %.0f</string>
+    <string name="tests_indo">Total test di Indonesia: %.0f</string>
+    <string name="affected_world">Total negara yang terinfeksi: %.0f</string>
+    <string name="material_education">Materi Edukasi</string>
+    <string name="education_detail">Detail Edukasi</string>
+    <string name="source_desc">Sumber: Covid19.go.id</string>
+    <string name="world">World</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="data_distributing">Data Penyebaran</string>
+    <string name="material">Materi</string>
+    <string name="about">Tentang</string>
+
+    <string-array name="title_education">
+        <item>Saatnya Menyambut Normal Baru</item>
+        <item>Pulihkan Aktivitas Masyarakat Ragam Pendekatan Digunakan</item>
+        <item>Keluar Rumah? wajib #PakaiMasker</item>
+        <item>Panduan Adaptasi Kebiasaan Baru #1 Belanja ke Pasar/Pusat Perbelanjaan</item>
+        <item>WHO Peringatkan Gelombang Kedua Covid-19</item>
+        <item>Lawan Corona Ini Cara #CuciTanganPakaiSabun</item>
+        <item>Waspada Corona, Selalu #JagaJarak</item>
+        <item>Tetap Produktif di Kampung Halaman</item>
+        <item>Tetap Siaga Lawan COVID-19</item>
+    </string-array>
+
+    <array name="img_education">
+        <item>@drawable/normal_baru</item>
+        <item>@drawable/pulihkan_aktivitas</item>
+        <item>@drawable/wajib_masker</item>
+        <item>@drawable/pasar</item>
+        <item>@drawable/gelombang_kedua</item>
+        <item>@drawable/cuci_tangan</item>
+        <item>@drawable/jaga_jarak</item>
+        <item>@drawable/kampung_halaman</item>
+        <item>@drawable/tetap_siaga</item>
+    </array>
+
+    <string-array name="desc_education">
+        <item>Saatnya Menyambut Normal Baru Jaman OLD VS Jaman NOW</item>
+        <item>Menuju masyarakat yang produktif dan aman dari COVID-19, berbagai protokol disiapkan. Namun, tidak boleh sembarangan karena perlu dilakukan pendekatan berbasis epidemiologi, surveilans kesehatan masyarakat, dan pelayanan kesehatan.
+Sebelas indikator digunakan untuk menganalisis penurunan COVID-19, yang akan menentukan status setiap kabupaten/kota. Indikator ini pun dievaluasi secara berkala untuk memantau perkembangannya.
+Bagaimanapun juga, kita sebagai masyarakat harus terus menjalankan protokol kesehatan yang disiplin dan ketat di tengah kegiatan produktif sehari-hari!
+#JagaJarak
+#PakaiMasker
+#CuciTanganPakaiSabun</item>
+        <item>Menuju normal baru, kita harus lebih disiplin lagi menggunakan masker setiap keluar rumah.
+Yuk jadikan masker bagian dari pola hidup baru kita sehari-hari 😷</item>
+        <item>Belanja ke Pasar/Pusat Perbelanjaan
+Beradaptasi dengan kebiasaan baru selama pandemi adalah untuk menjaga diri dan keluarga.
+Ketika belanja ke pasar atau pusat belanja, pastikan selalu #PakaiMasker, #CuciTanganPakaiSabun, hindari menyentuh wajah, dan #JagaJarak.
+Selain itu, hindari berlama-lama berada di pasar dan apabila bisa, prioritaskan transaksi non-tunai!
+Mari tetap disiplin dan sesuaikan kebiasaan kita!</item>
+        <item>Gelombang kedua COVID-19 masih dapat terjadi.
+WHO memprediksi virus ini akan bertahan dalam waktu lama.
+Tanpa vaksin, cara terbaik lindungi diri adalah dengan disiplin terus kebiasaan baru #JagaJarak #PakaiMasker #CuciTanganPakaiSabun
+Mari kita tetap produktif dan disiplin menjalankan protokol kesehatan!</item>
+        <item>Cuci tangan menjadi salah satu hal paling penting yang harus kita biasakan dalam tatanan kehidupan baru ini.
+Jangan lupa juga untuk memperhatikan tata cara cuci tangan yang benar agar efektif.
+Simak cara #CuciTanganPakaiSabun berikut, dan jadikan sebagai pola hidup baru yang baik!</item>
+        <item>Kedisiplinan Penentu Keberhasilan!
+Menuju normal baru, yuk kita biasakan #JagaJarak agar bisa tetap beraktifitas secara produktif dan aman.
+Kedisiplinan Penentu Keberhasilan!
+Menuju normal baru, yuk kita biasakan #JagaJarak agar bisa tetap beraktifitas secara produktif dan aman.
+</item>
+        <item>Apabila belum dapat kembali ke Jakarta di tengah situasi pandemi, jangan khawatir karena banyak aktivitas usaha yang bisa dilakukan di kampung halaman, misalnya seperti tercantum di infografis ini.Jadi, tidak hanya berperan mencegah penyebaran COVID-19, dengan tetap tinggal di kampung halaman kamu juga bisa produktif dan menghasilkan penghasilan tambahan!
+</item>
+        <item>Selama wabah masih bersama kita, jangan lengah!Terus waspada dengan menjaga pola hidup baru, selalu ingat untuk #JagaJarak, #PakaiMasker, #CuciTanganPakaiSabun
+</item>
+    </string-array>
+</resources>

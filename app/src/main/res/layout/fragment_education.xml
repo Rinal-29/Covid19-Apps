@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="educationViewModel"
+            type="com.rinal.covid19.education.EducationViewModel" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:liftOnScroll="true">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:expandedTitleMarginStart="72dp"
+                app:expandedTitleMarginBottom="28dp"
+                app:expandedTitleTextAppearance="@style/TextAppearance.App.CollapsingToolbar.Expanded"
+                app:collapsedTitleTextAppearance="@style/TextAppearance.App.CollapsingToolbar.Collapsed"
+                app:contentScrim="?attr/colorPrimary"
+                app:statusBarScrim="?attr/colorPrimaryVariant"
+                app:layout_scrollFlags="exitUntilCollapsed|scroll|snap">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pengantar"
+                    android:scaleType="centerCrop"/>
+
+                <com.google.android.material.appbar.MaterialToolbar
+                    android:id="@+id/topAppBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:title="@string/education"
+                    app:navigationIcon="@drawable/ic_navigate_before"
+                    android:elevation="0dp"
+                    android:background="@android:color/transparent"
+                    app:layout_collapseMode="pin"
+                    style="@style/Widget.MaterialComponents.Toolbar.Primary"/>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvIntroduction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:text="@string/education_intro"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="4dp"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:fontFamily="@font/roboto_medium"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+                <TextView
+                    android:id="@+id/tvSubIntro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="4dp"
+                    android:text="@string/what_you_can_do"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    app:layout_constraintStart_toStartOf="@id/tvIntroduction"
+                    app:layout_constraintTop_toBottomOf="@id/tvIntroduction"/>
+
+                <TextView
+                    android:id="@+id/descIntro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:layout_marginStart="4dp"
+                    android:text="@string/desc_text"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    app:layout_constraintStart_toStartOf="@id/tvSubIntro"
+                    app:layout_constraintTop_toBottomOf="@id/tvSubIntro"/>
+
+                <TextView
+                    android:id="@+id/educationMaterial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="4dp"
+                    android:text="@string/material_education"
+                    app:layout_constraintStart_toStartOf="@id/descIntro"
+                    app:layout_constraintTop_toBottomOf="@id/descIntro"
+                    android:textAppearance="?attr/textAppearanceHeadline6"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintStart_toStartOf="@id/educationMaterial"
+                    app:layout_constraintTop_toBottomOf="@id/educationMaterial">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvEducation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                        listData="@{educationViewModel.educationProperties}"
+                        app:spanCount="2"
+                        android:layout_marginBottom="64dp"
+                        tools:listitem="@layout/list_item"/>
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
