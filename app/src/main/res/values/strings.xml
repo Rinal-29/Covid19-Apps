@@ -51,6 +51,10 @@
     <string name="data_distributing">Data Penyebaran</string>
     <string name="material">Materi</string>
     <string name="about">Tentang</string>
+    <string name="contact">Pertanyaan ?</string>
+    <string name="contact_support">119 ext 9 \n Hotline Kemenkes</string>
+    <string name="text_about">Aplikasi yang diharapkan dapat membantu masyarakat dengan menghadirkan informasi update data kasus covid-19 di indonesia maupun dunia. kedepannya masih akan dilakukan pengembangan aplikasi ini seperti data tiap kasus di seluruh dunia atau provinsi di Indonesia. Berikan kritik dan masukkan kepada author melalui akun sosial media atau email. Terima Kasih!</string>
+    <string name="contact_person">Gmail: muhafrinal@gmail.com \nInstagram: muhafrinal</string>
 
     <string-array name="title_education">
         <item>Saatnya Menyambut Normal Baru</item>

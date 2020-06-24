@@ -60,7 +60,8 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp">
 
                 <LinearLayout
                     android:id="@+id/first_layout"
@@ -251,6 +252,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
                     android:orientation="vertical">
 
                     <TextView
@@ -299,7 +301,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
                         android:text="@{@string/tests_indo(indonesiaViewModel.indonesiaProperties.tests)}"/>
-
                 </LinearLayout>
             </RelativeLayout>
         </androidx.core.widget.NestedScrollView>
