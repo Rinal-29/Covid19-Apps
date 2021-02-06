@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <data>
         <variable
@@ -15,25 +15,8 @@
 
         <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
-            android:layout_height="350dp"
+            android:layout_height="wrap_content"
             app:liftOnScroll="true">
-
-            <com.google.android.material.appbar.CollapsingToolbarLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:expandedTitleMarginStart="72dp"
-                app:expandedTitleMarginBottom="28dp"
-                app:expandedTitleTextAppearance="@style/TextAppearance.App.CollapsingToolbar.Expanded"
-                app:collapsedTitleTextAppearance="@style/TextAppearance.App.CollapsingToolbar.Collapsed"
-                app:layout_scrollFlags="exitUntilCollapsed|scroll|snap"
-                app:contentScrim="?attr/colorPrimary"
-                app:statusBarScrim="?attr/colorPrimaryVariant">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:scaleType="fitXY"
-                    imageData="@{detailViewModel.educationProperties.imgEducation}"/>
 
                 <com.google.android.material.appbar.MaterialToolbar
                     android:id="@+id/topAppBar"
@@ -41,11 +24,9 @@
                     android:layout_height="?attr/actionBarSize"
                     app:title="@string/education_detail"
                     style="@style/Widget.MaterialComponents.Toolbar.Primary"
-                    android:background="@android:color/transparent"
+                    app:layout_scrollFlags="scroll|enterAlways|snap"
                     android:elevation="0dp"
-                    app:layout_collapseMode="pin"
                     app:navigationIcon="@drawable/ic_navigate_before"/>
-            </com.google.android.material.appbar.CollapsingToolbarLayout>
         </com.google.android.material.appbar.AppBarLayout>
 
         <androidx.core.widget.NestedScrollView
@@ -59,10 +40,16 @@
                 android:orientation="vertical"
                 android:padding="16dp">
 
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    imageData="@{detailViewModel.educationProperties.imgEducation}"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_medium"
+                    android:layout_marginTop="16dp"
                     android:text="@{detailViewModel.educationProperties.title}"
                     android:textAppearance="?attr/textAppearanceHeadline6"/>
 

@@ -4,16 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_splash"
     tools:context=".splash.SplashActivity">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/unifa_logo"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quotes"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/imgView"
+        android:layout_margin="16dp"
+        android:paddingBottom="16dp"/>
 
     <ImageView
         android:id="@+id/imgView"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/logo_kkn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kkn"
+        app:layout_constraintTop_toBottomOf="@id/imgView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="16dp"
+        android:paddingTop="16dp"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/tv2"
+        app:layout_constraintTop_toBottomOf="@id/tv2"
+        android:text="@string/university"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@android:color/white"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

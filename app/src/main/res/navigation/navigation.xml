@@ -8,8 +8,8 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.rinal.covid19.home.HomeFragment"
-        tools:layout="@layout/fragment_home"
-        android:label="Covid-19">
+        android:label="Lawan Covid-19"
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_detailWorldFragment"
             app:destination="@id/detailWorldFragment"
@@ -23,10 +23,17 @@
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_lef"
             app:popEnterAnim="@anim/slide_in_right"
-            app:popExitAnim="@anim/slide_out_lef"/>
+            app:popExitAnim="@anim/slide_out_lef" />
         <action
             android:id="@+id/action_homeFragment_to_educationFragment"
             app:destination="@id/educationFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_lef"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_lef" />
+        <action
+            android:id="@+id/action_homeFragment_to_serviceFragment"
+            app:destination="@id/serviceFragment"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_lef"
             app:popEnterAnim="@anim/slide_in_right"
@@ -40,27 +47,27 @@
         <action
             android:id="@+id/action_detailWorldFragment_to_homeFragment"
             app:destination="@id/homeFragment"
-            app:popUpTo="@id/homeFragment"
             app:enterAnim="@anim/slide_in_left"
-            app:popUpToInclusive="true"/>
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
     </fragment>
 
     <fragment
         android:id="@+id/detailIndonesiaFragment"
         android:name="com.rinal.covid19.indonesia.DetailIndonesiaFragment"
-        android:label="DetailIndonesiaFragment" >
+        android:label="DetailIndonesiaFragment">
         <action
             android:id="@+id/action_detailIndonesiaFragment_to_homeFragment"
             app:destination="@id/homeFragment"
-            app:popUpTo="@id/homeFragment"
             app:enterAnim="@anim/slide_in_left"
-            app:popUpToInclusive="true"/>
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
     </fragment>
 
     <fragment
         android:id="@+id/educationFragment"
         android:name="com.rinal.covid19.education.EducationFragment"
-        android:label="EducationFragment" >
+        android:label="EducationFragment">
         <action
             android:id="@+id/action_educationFragment_to_detailEducationFragment"
             app:destination="@id/detailEducationFragment"
@@ -71,9 +78,9 @@
         <action
             android:id="@+id/action_educationFragment_to_homeFragment2"
             app:destination="@id/homeFragment"
-            app:popUpTo="@id/homeFragment"
             app:enterAnim="@anim/slide_in_left"
-            app:popUpToInclusive="true"/>
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
     </fragment>
 
     <fragment
@@ -82,13 +89,13 @@
         android:label="DetailEducationFragment">
         <argument
             android:name="propertyEducation"
-            app:argType="com.rinal.covid19.network.EducationProperties"/>
+            app:argType="com.rinal.covid19.network.EducationProperties" />
         <action
             android:id="@+id/action_detailEducationFragment_to_educationFragment"
             app:destination="@id/educationFragment"
-            app:popUpTo="@id/educationFragment"
             app:enterAnim="@anim/slide_in_left"
-            app:popUpToInclusive="true"/>
+            app:popUpTo="@id/educationFragment"
+            app:popUpToInclusive="true" />
     </fragment>
 
     <fragment
@@ -96,5 +103,17 @@
         android:name="com.rinal.covid19.about.AboutFragment"
         android:label="fragment_about"
         tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/serviceFragment"
+        android:name="com.rinal.covid19.services.ServiceFragment"
+        android:label="ServiceFragment">
+        <action
+            android:id="@+id/action_serviceFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
 
 </navigation>

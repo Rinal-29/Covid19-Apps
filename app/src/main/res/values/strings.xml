@@ -1,18 +1,16 @@
 <resources>
-    <string name="app_name">covid19</string>
+    <string name="app_name">Lawan Covid-19</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hi_welcome">Hai, Apa Kabar ?</string>
-    <string name="stay_health">#dirumahaja bantu petugas kesehatan melawan penyebaran covid19</string>
+    <string name="stay_health">#pakaimasker bantu petugas kesehatan melawan penyebaran covid19</string>
     <string name="update">Update Terakhir</string>
-    <string name="world_wide">World Wide</string>
+    <string name="world_wide">Dunia</string>
     <string name="total_case">Total Case </string>
     <string name="source">Source : Github.com/novelcovid/api</string>
 
     <string name="confirmed">Confirmed: %.0f</string>
     <string name="recovered">Recovered: %.0f</string>
     <string name="death">Death: %.0f</string>
-    <string name="more_information"><![CDATA[Klik untuk selengkapnya >>>]]></string>
     <string name="education">Edukasi</string>
     <string name="education_intro">Pengantar Edukasi</string>
     <string name="what_you_can_do">Apa yang bisa anda lakukan ?</string>
@@ -29,8 +27,6 @@
     <string name="active_all">%.0f</string>
     <string name="recovered_all">%.0f</string>
     <string name="deaths_all">%.0f</string>
-    <string name="test_all">%.0f</string>
-    <string name="country_all">%.0f</string>
 
     <string name="confirmed_today">(+%.0f)</string>
     <string name="recovered_today">(+%.0f)</string>
@@ -46,15 +42,20 @@
     <string name="material_education">Materi Edukasi</string>
     <string name="education_detail">Detail Edukasi</string>
     <string name="source_desc">Sumber: Covid19.go.id</string>
-    <string name="world">World</string>
+    <string name="world">Dunia</string>
     <string name="indonesia">Indonesia</string>
     <string name="data_distributing">Data Penyebaran</string>
-    <string name="material">Materi</string>
     <string name="about">Tentang</string>
-    <string name="contact">Pertanyaan ?</string>
-    <string name="contact_support">119 ext 9 \n Hotline Kemenkes</string>
+    <string name="contact">Pusat Informasi</string>
     <string name="text_about">Aplikasi yang diharapkan dapat membantu masyarakat dengan menghadirkan informasi update data kasus covid-19 di indonesia maupun dunia. kedepannya masih akan dilakukan pengembangan aplikasi ini seperti data tiap kasus di seluruh dunia atau provinsi di Indonesia. Berikan kritik dan masukkan kepada author melalui akun sosial media atau email. Terima Kasih!</string>
-    <string name="contact_person">Gmail: muhafrinal@gmail.com \nInstagram: muhafrinal</string>
+    <string name="contact_person">Gmail: muhafrinal@gmail.com \nInstagram: @muhafrinal</string>
+    <string name="quotes">Aplikasi EDukasi Bersatu \nMelawan COVID-19</string>
+    <string name="kkn">KKN-E Angkatan XIV</string>
+    <string name="university">Universitas Fajar Makassar</string>
+    <string name="contact_person1">112 (Hotline Covid-19 Kota Makassar)</string>
+    <string name="contact_person2">085255875751 (Hotline Dinas Kesehatan)</string>
+    <string name="contact_person3">081342720062 (Hotline Dinas Kesehatan)</string>
+    <string name="contact_person4">081144688894 (Hotline Dinas Kesehatan)</string>
 
     <string-array name="title_education">
         <item>Saatnya Menyambut Normal Baru</item>
@@ -112,4 +113,18 @@ Menuju normal baru, yuk kita biasakan #JagaJarak agar bisa tetap beraktifitas se
         <item>Selama wabah masih bersama kita, jangan lengah!Terus waspada dengan menjaga pola hidup baru, selalu ingat untuk #JagaJarak, #PakaiMasker, #CuciTanganPakaiSabun
 </item>
     </string-array>
+
+    <string name="number1">122</string>
+    <string name="number2">085255875751</string>
+    <string name="number3">081342720062</string>
+    <string name="number4">081144688894</string>
+    <string name="services">Layanan</string>
+    <string name="free_rapid_test">Rapid Test Gratis</string>
+    <string name="services_description">Berlaku mulai Senin, 6 Juli 2020, Pemprov. Sulsel akan membuka layanan Rapid Test (Covid-19) GRATIS. Rapid test gratis ini dibuka pada 2 tempat, Yaitu: \n\n
+        1. DINAS KESEHATAN PROV.SULSEL JL.PERINTIS KEMERDEKAAN TAMALANREA MAKASSAR \n
+    2. GEDUNG PKK PROV.SULSEL JL.MESJID RAYA MAKASSAR \n\nBagi yang Non Reaktif akan diberikan SERTIFIKAT BEBAS COVID-19 yang berlaku selama 14 (Empat Belas) hari dan dapat dipergunakan untuk persyaratan perjalanan keluar kota semasa pandemi. \n\nDemikian informasi ini untuk diketahui, atas perhatiannya diucapkan terima kasih.</string>
+    <string name="start"><![CDATA[Daftar >>]]></string>
+    <string name="tot_case">Total Kasus (Live Report)</string>
+    <string name="resource_team">Sumber: TIM GUGUS TUGAS COVID SULSEL</string>
+    <string name="register_now">Daftar Sekarang !</string>
 </resources>

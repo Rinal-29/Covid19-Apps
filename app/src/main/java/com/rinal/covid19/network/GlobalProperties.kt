@@ -1,7 +1,5 @@
 package com.rinal.covid19.network
 
-import com.squareup.moshi.Json
-
 data class GlobalProperties(
    val updated: Double,
    val cases: Double,

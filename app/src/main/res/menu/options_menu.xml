@@ -4,6 +4,6 @@
 
     <item android:title="@string/about"
         android:id="@+id/aboutMeFragment"
-        android:icon="@drawable/ic_logo_round"
+        android:icon="@drawable/logo_kkn"
         app:showAsAction="always"/>
 </menu>

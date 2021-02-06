@@ -22,7 +22,6 @@ fun bindDate(textView: TextView, date: Double?){
     }
 }
 
-
 @BindingAdapter("progressStatus")
 fun bindProgressBar(statusLoading: ProgressBar, status: ApiStatus?){
     when (status){

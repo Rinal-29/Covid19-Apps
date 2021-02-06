@@ -9,7 +9,7 @@ import com.rinal.covid19.R
 
 class SplashActivity : AppCompatActivity() {
 
-    private val timeSplash: Long = 1500
+    private val timeSplash: Long = 3000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

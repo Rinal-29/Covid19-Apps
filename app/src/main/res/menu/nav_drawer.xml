@@ -16,11 +16,11 @@
     </item>
 
     <item
-        android:title="@string/material">
-        <menu>
-            <item android:title="@string/education"
-                android:id="@+id/educationFragment"
-                android:icon="@drawable/ic_folder"/>
-        </menu>
-    </item>
+        android:title="@string/free_rapid_test"
+        android:id="@+id/serviceFragment"
+        android:icon="@drawable/ic_adb"/>
+
+    <item android:title="@string/education"
+        android:id="@+id/educationFragment"
+        android:icon="@drawable/ic_folder"/>
 </menu>
